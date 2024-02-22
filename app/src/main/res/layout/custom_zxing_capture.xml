@@ -1,0 +1,30 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--
+        This Activity is typically full-screen. Therefore we can safely use centerCrop scaling with
+        a SurfaceView, without fear of weird artifacts. -->
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/zxing_barcode_scanner"
+            app:zxing_preview_scaling_strategy="centerCrop"
+            app:zxing_use_texture_view="false"/>
+        <TextView
+            android:id="@+id/close"
+            android:layout_alignParentRight="true"
+            android:tint="@android:color/white"
+            android:background="@android:color/white"
+            android:text="❎"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</merge>
+
+

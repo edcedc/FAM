@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/ams_grey"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:background="@android:color/white"
+            android:lines="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:tint="@color/colorPrimary"
+            android:layout_margin="3dp"
+            android:src="@drawable/search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_margin="10dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/add"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/scan"
+        android:layout_margin="10dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/qr_code"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+</LinearLayout>

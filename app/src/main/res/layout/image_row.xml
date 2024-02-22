@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.spit.fam.View.SquareImageView
+        android:id="@+id/dummy_1"
+        android:layout_marginRight="10dp"
+        android:maxWidth="100dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <com.spit.fam.View.SquareImageView
+        android:id="@+id/dummy_2"
+        android:layout_marginRight="10dp"
+        android:maxWidth="100dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+    <com.spit.fam.View.SquareImageView
+        android:id="@+id/dummy_3"
+        android:layout_marginRight="10dp"
+        android:maxWidth="100dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

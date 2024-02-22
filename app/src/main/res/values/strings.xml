@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FAM 10k</string>
+    <string name="app_name_zh">固 定 資 產 管 家</string>
+    <string name="app_version">v1.1.0.1</string>
+    <string name="upload_tips">Successfully saved to local, please upload to server later.</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="initial_reader">Initializing reader. Please wait.</string>
+    <string name="login">Login</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="companyid_empty">Empty Company ID</string>
+    <string name="host_address_empty">Empty Host Address</string>
+    <string name="account_empty">Empty User Id</string>
+    <string name="password_empty">Empty Password</string>
+    <string name="username_not_exist">Username not exists</string>
+
+    <string name="incorrect_credential">Incorrect Credential</string>
+    <string name="success">Success</string>
+    <!--
+    <string name="borrow_success">Borrow Success</string>
+    <string name="disposal_success">Disposal Success</string>請回到桌面程式拍卡認證
+    -->
+    <string name="borrow_success">Borrow Success</string>
+    <string name="disposal_success">Disposal Success</string>
+
+    <string name="success_binding">Successfully binding to a new EPC</string>
+    <string name="return_success">Return Success</string>
+    <string name="binding_fail">Fail to bind</string>
+    <string name="fail">Fail</string>
+    <string name="lend_some">borrowed x items</string>
+    <string name="return_some">returned x items</string>
+    <string name="disposal_some">disposal x items</string>
+
+    <string name="downloading">Downloading</string>
+    <string name="uploading">Uploading</string>
+
+    <string name="user_list_downloaded">User Lists data downloaded successfully</string>
+    <string name="asset_list_downloaded">Asset List downloaded successfully</string>
+    <string name="registration_list_downloaded">Registration List downloaded successfully</string>
+    <string name="borrow_list_downloaded">Borrow List downloaded successfully</string>
+    <string name="stock_take_list_downloaded">Stock Take List downloaded successfully</string>
+    <string name="disposal_list_downloaded">Disposal List downloaded successfully</string>
+
+    <string name="upload_success">Upload Success</string>
+    <string name="upload_fail">Upload Fail</string>
+    <string name="no_info_to_upload">No data to upload.</string>
+    <string name="back">Back</string>
+    <string name="host_address">Host</string>
+    <string name="company_id">Company ID</string>
+
+    <string name="no_internet">No Internet Connection</string>
+
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="t_chinese">繁體中文</string>
+    <string name="s_chinese">简体中文</string>
+
+    <!-- copy from drawer -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- copy from drawer end -->
+    <string name="borrow_list">Borrow List</string>
+    <string name="disposal_list">Disposal List</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="search">SEARCH</string>
+    <string name="registration">REGISTRATION</string>
+    <string name="receive_deposit">RECEIVE/DEPOSIT</string>
+    <string name="receive">RECEIVE</string>
+    <string name="deposit">DEPOSIT</string>
+
+    <string name="borrow">BORROW</string>
+    <string name="return_string">RETURN</string>
+    <string name="stock_take">STOCK TAKE</string>
+    <string name="disposal">DISPOSAL</string>
+    <string name="bluetooth">BLUETOOTH</string>
+    <string name="download">Download</string>
+    <string name="download_all">Download All</string>
+    <string name="upload_all">Upload All</string>
+    <string name="no_data_for_upload">No data for upload</string>
+    <string name="no_data">No Data</string>
+    <string name="upload">Upload</string>
+    <string name="logout">LOGOUT</string>
+
+    <string name="user_list">User List</string>
+    <string name="asset_list">Asset List</string>
+    <string name="registration_list">Registration List</string>
+    <string name="register_epc_request">Register EPC</string>
+    <string name="change_epc_request">Change EPC</string>
+    <string name="stock_take_list">Stock Take List</string>
+    <string name="return_list">Return list</string>
+    <string name="download_success">Download Success</string>
+
+    <string name="bind">Binded</string>
+    <string name="unbind">Unbinded</string>
+
+    <string name="in_library">In Library</string>
+    <string name="borrowed">Borrowed</string>
+    <string name="disposed">Disposed</string>
+    <string name="disposed_item">Disposed Items</string>
+
+    <string name="full_list">Full list</string>
+    <string name="found">Found</string>
+    <string name="missing">Missing</string>
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="nothing_selected">Nothing Selected</string>
+    <string name="no_location_selected">No Location Selected</string>
+
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="category">Category</string>
+    <string name="location">Location</string>
+    <string name="return_to_location">Return to Location</string>
+    <string name="epc">EPC</string>
+    <string name="cert_status">Cert Status</string>
+    <string name="new_epc">New EPC</string>
+    <string name="overdue">Overdue</string>
+    <string name="return_date">Return Date</string>
+    <string name="no_result">No Result</string>
+    <string name="result">Result</string>
+    <string name="search_result">Search Result</string>
+    <string name="binding_result">Successfully register x items, successfully change y items.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="asset_information">Asset Information</string>
+    <string name="financial_information">Financial Inforamtion</string>
+    <string name="tag_information">Tag Information</string>
+    <string name="cert_information">Cert Information</string>
+    <string name="assetno">Asset No</string>
+    <string name="assetname">Asset Name</string>
+
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="bind_to">Bind To</string>
+    <string name="change_epc">Change EPC</string>
+    <string name="epc_already_exist">EPC already exist</string>
+    <string name="remark">Remark</string>
+    <string name="status">Status</string>
+    <string name="serial_number">Serial No.</string>
+    <string name="unit">Unit</string>
+    <string name="last_stock_date">Last Stock Date</string>
+    <string name="created_by">Created By</string>
+    <string name="create_date">Create Date</string>
+    <string name="holder">Holder</string>
+    <string name="group">Group</string>
+    <string name="source">Source</string>
+    <string name="witness">Witness</string>
+    <string name="prosecution_no">Prev Asset No.</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="invoice_voucher_date">Invoice/Voucher Date</string>
+    <string name="invoice_voucher_no">Invoice/Voucher No.</string>
+    <string name="funding_source">Funding Source</string>
+    <string name="supplier">Supplier</string>
+    <string name="maintenance_date">Maintenance Date</string>
+    <string name="cost">Cost</string>
+    <string name="practical_value">Practical Value</string>
+    <string name="estimated_lifetime_month">Estimated Lifetime Month</string>
+
+    <string name="type_of_tag">Type of Tag</string>
+    <string name="barcode">Barcode</string>
+    <string name="cert_url">Cert Url</string>
+    <string name="start">Start</string>
+    <string name="scan">Scan</string>
+    <string name="stop">stop</string>
+    <string name="old_epc">Original EPC</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_deleting">Confirm deleting</string>
+    <string name="valid_day">Valid Day</string>
+    <string name="certificate_type">Certificate Type</string>
+
+    <string name="applied">Applied</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="Abnormal">Abnormal</string>
+
+    <string name="new_string">New</string>
+    <string name="processing">Processing</string>
+    <string name="expired">Expired</string>
+
+    <string name="apply_date">Apply Date</string>
+    <string name="approval_date">Approval Date</string>
+    <string name="approved_by">Approved By</string>
+    <string name="valid_date">Valid Date</string>
+    <string name="borrow_from">Borrowed From</string>
+    <string name="borrowed_item">Borrowed Items</string>
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="progress">Progress</string>
+    <string name="last_update">Last Update</string>
+
+    <string name="waiting_list">Waiting List</string>
+    <string name="abnormal">Abnormal</string>
+
+    <string name="asset_number">Asset Number</string>
+
+    <string name="error_bluetooth_connection_failed">Unable to connect device</string>
+    <string name="toast_ble_connected">BLE is connected</string>
+    <string name="bluetooth_is_not_connected">BLE is not connected</string>
+    <string name="rfid_is_not_ready">RFID is not ready</string>
+    <string name="app_ime">CS108 Java Wedge</string>
+    <string name="subtype_en_US">English (US)</string>
+
+    <string name="photo">Photo</string>
+
+    <!-- Strings for Fragment actionBar title -->
+    <string name="title_activity_home">Convergence Systems</string>
+    <string name="title_activity_connection">Connect</string>
+    <string name="title_activity_filters">Filters</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_readwrite">Read / Write</string>
+    <string name="title_activity_registertag">Register tag</string>
+    <string name="title_activity_special">Special Functions</string>
+    <string name="title_activity_geiger">Geiger search</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_security">Security</string>
+
+    <!-- Items for lock privilege state -->
+    <string-array name="access_lock_privilege_array">
+        <item>Unchanged</item>
+        <item>Unlock</item>
+        <item>Permanent Unlock</item>
+        <item>Lock</item>
+        <item>Permanent Lock</item>
+    </string-array>
+
+    <!-- Strings for Access Operations Kill Fragment -->
+
+    <!-- Strings for Access Operations Kill Fragment -->
+    <!-- Items selectMaskagID -->
+    <string-array name="memoryBank_options">
+        <item>Reser</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="read_memoryBank_options">
+        <item>EPC</item>
+        <item>TID</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="dataType_options">
+        <item>Hex</item>
+        <item>Bit</item>
+    </string-array>
+
+    <string-array name="write_memoryBank_options">
+        <item>EPC</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="filterPre_SLaction_options">
+        <item>Match(assert SL), else(deassert SL)</item>
+        <item>Match(assert SL), else(do nothing)</item>
+        <item>Match(do nothing), else(deassert SL)</item>
+        <item>Match(invert SL), else(do nothing)</item>
+        <item>Match(deassert SL), else(assert SL)</item>
+        <item>Match(deassert SL), else(do nothing)</item>
+        <item>Match(do nothing), else(assert SL)</item>
+        <item>Match(do nothing), else(invert SL)</item>
+    </string-array>
+
+    <string-array name="filterPre_SessionAction_options">
+        <item>Match(inventory A), else(set inventory B)</item>
+        <item>Match(inventory A), else(do nothing)</item>
+        <item>Match(do nothing), else(inventory B)</item>
+        <item>Match(toggle AB), else(do nothing)</item>
+        <item>Match(inventory B), else(inventory A)</item>
+        <item>Match(inventory B), else(do nothing)</item>
+        <item>Match(do nothing), else(inventory A)</item>
+        <item>Match(do nothing), else(toggle AB)</item>
+    </string-array>
+
+    <string-array name="filterPre_target_options">
+        <item>Inventoried S0</item>
+        <item>Inventoried S1</item>
+        <item>Inventoried S2</item>
+        <item>Inventoried S3</item>
+        <item>SL</item>
+    </string-array>
+
+    <string-array name="admin_battery_options">
+        <item>Voltage</item>
+        <item>Percentage</item>
+    </string-array>
+
+    <string-array name="admin_rssi_options">
+        <item>dBuV</item>
+        <item>dBm</item>
+    </string-array>
+
+    <string-array name="admin_vibratemode_options">
+        <item>New</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="frequencyOrder_options">
+        <item>Frequency hopping</item>
+        <item>Fixed channel</item>
+    </string-array>
+
+    <string-array name="frequencyAgile_options">
+        <item>Frequency agile</item>
+        <item>Fixed channel</item>
+    </string-array>
+
+    <string-array name="hideTid_options">
+        <item>hide none</item>
+        <item>hide some</item>
+        <item>hide all</item>
+    </string-array>
+
+    <string-array name="query_target_options">
+        <item>A</item>
+        <item>B</item>
+        <item>Toggle A/B</item>
+    </string-array>
+
+    <string-array name="query_session_options">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="inventory_algorithm_options">
+        <item>Dynamic</item>
+        <item>Fixed</item>
+    </string-array>
+
+    <string-array name="profile_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="profile1_options">
+        <item>0: Multipath Interference Resistance</item>
+        <item>1: Range/Dense reader</item>
+        <item>2: Range/Throughput/Dense reader</item>
+        <item>3: Maximum throughput</item>
+    </string-array>
+
+    <string-array name="rflnagain_options">
+        <item>1 dB</item>
+        <item>7 dB</item>
+        <item>13 dB</item>
+    </string-array>
+
+    <string-array name="iflnagain_options">
+        <item>24 dB</item>
+        <item>18 dB</item>
+        <item>12 dB</item>
+        <item>6 dB</item>
+    </string-array>
+
+    <string-array name="agcgain_options">
+        <item>-12 dB</item>
+        <item>-6 dB</item>
+        <item>0 dB</item>
+        <item>6 dB</item>
+    </string-array>
+
+    <string-array name="query_select_options">
+        <item>All</item>
+        <item>All</item>
+        <item>~SL</item>
+        <item>SL</item>
+    </string-array>
+
+    <string-array name="coldChain_unit_options">
+        <item></item>
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>sample interval</item>
+    </string-array>
+
+    <string-array name="coldChain_IntervalUnit_options">
+        <item></item>
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>5 minutes</item>
+    </string-array>
+
+    <string-array name="coldChain_enable_options">
+        <item></item>
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+
+    <string-array name="disable_enable_options">
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+
+    <string-array name="xerxesTag_options">
+        <item>All</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>Xerxes</item>
+    </string-array>
+
+    <string-array name="sensor_unit_options">
+        <item>%</item>
+        <item>code</item>
+    </string-array>
+
+    <string-array name="temperature_unit_options">
+        <item>\u2103</item>
+        <item>\u2109</item>
+    </string-array>
+
+    <string-array name="rfMicronTag_options">
+        <item>All</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="micronDetect_options">
+        <item>temperature</item>
+        <item>snsor</item>
+    </string-array>
+
+    <!-- Strings for StartStopTrigger Fragment -->
+    <!-- Strings for start trigger Selection -->
+    <!-- Strings for stop trigger Selection -->
+
+    <!-- beeper volume -->
+
+    <!-- Error Indicators -->
+    <string name="nodevice_found">No Device Found</string>
+    <string name="notag_found">No Tag Found</string>
+    <string name="nobarcode_found">No BarCode Found</string>
+
+    <!-- Titles in ReadersList -->
+    <string name="available_readers_title">Available Readers</string>
+    <string name="connecting_with_">Connecting with </string>
+
+    <!-- Titles in regulatory settings -->
+
+    <!-- toast -->
+    <string name="toast_ble_not_connected">Bluetooth is Not Connected, Please Connect</string>
+    <string name="bluetooth_already_connected">Bluetooth already connected</string>
+    <string name="toast_not_ready">Updating data. Please wait.</string>
+    <string name="toast_finishing_tag_data_upload">Finishing tag data upload</string>
+    <string name="toast_abort_by_STOP">Finish as STOP is pressed</string>
+    <string name="toast_abort_by_BUTTON">Finish as BUTTON is released</string>
+    <string name="toast_abort_by_TIMEOUT">Finish as TIMEOUT</string>
+    <string name="toast_abort_by_RFIDRESET">Finish as RFID RESET</string>
+    <string name="toast_abort_by_END">Finish as COMMAND END is received</string>
+    <string name="toast_abort_by_SUCCESS">SUCCESS</string>
+    <string name="toast_abort_by_FAILURE">FAILURE</string>
+    <string name="toast_ble_setup_problem">Setup problem after connection. Disconnect</string>
+    <string name="toast_invalid_range">Invalid Range. Operation is cancelled.</string>
+    <string name="toast_invalid_sendHostRequest">Invalid sendHostRequest. Operation is cancelled.</string>
+    <string name="toast_same_setting">Same setting. Need no update. Operation is cancelled.</string>
+    <string name="toast_saved">Saved new setting.</string>
+
+    <!-- Titles in connection settings -->
+    <string name="original_epc">Original EPC</string>
+    <string name="start_title">START</string>
+    <string name="tag_pattern_title">Tag Pattern</string>
+    <string name="password_pattern_title">Password</string>
+    <string name="password_title">Password</string>
+    <string name="memory_bank_title">Memory Bank</string>
+    <string name="read_title">READ</string>
+    <string name="write_title">WRITE</string>
+    <string name="reserve_title">Reserved Memory</string>
+    <string name="readWriteOffset_title">Offset</string>
+    <string name="readWriteSize_title">Size</string>
+    <string name="kill_pwd_title">Kill PW</string>
+    <string name="access_pwd_title">Access PW </string>
+    <string name="epc_memory_title">EPC</string>
+    <string name="pc_title">PC</string>
+    <string name="epc_title">EPC</string>
+    <string name="xpc_title">XPC</string>
+    <string name="epc1_memory_title">EPC Memory</string>
+    <string name="tid_memory_title">TID Memory</string>
+    <string name="user_mmeory_title">User Memory</string>
+    <string name="geigerTone_title">Tone</string>
+    <string name="geigerThreshold_title">Threshold = </string>
+    <string name="settingProfile_title">Profile(0-3)</string>
+    <string name="settingAntennaCycle_title">Antenna cycle(0-65535)</string>
+    <string name="settingAntennaDwell_title">Antenna dwell(0-65535ms)</string>
+    <string name="settingAntennaPower_title">Inventory function power(0-32)</string>
+    <string name="settingAntennaBattery_title">Battery Display</string>
+    <string name="settingQueryTarget_title">Query target</string>
+    <string name="settingInvAlgo_titile">Query algorithm</string>
+    <string name="settingStartQ_title">Start Q(0-15)</string>
+    <string name="settingQValue_title">Q Value(0-15)</string>
+    <string name="settingMaxQ_title">Maximum Q(0-15)</string>
+    <string name="settingMinQ_title">Minimum Q(0-15)</string>
+    <string name="settingRetry_title">Retry(0-255)</string>
+    <string name="settingRunTilZero_title">Run til zero</string>
+    <string name="settingInvSelectMaskData_title">Mask data</string>
+    <string name="kill_title">KILL</string>
+    <string name="save_title">SAVE</string>
+    <string name="offset_bits_title">Bit Offset (decimal)</string>
+    <string name="index_title">Index</string>
+    <string name="target_title">Target</string>
+    <string name="action_title">Action</string>
+    <string name="enable_filter">Enable Filter</string>
+    <string name="type_filter">match on ~EPC (not EPC)</string>
+    <string name="company_title">Convergence Systems Limited</string>
+    <string name="app_version_title">Application Version</string>
+    <string name="lib_version_title">Library Version</string>
+    <string name="app_timeStamp">Time stamp</string>
+    <string name="app_GeoLocation">GPS location</string>
+    <string name="app_Ecompasss">E-Compass</string>
+    <string name="bluetooth_address">Bluetooth device address</string>
+    <string name="bluetooth_rssi">Bluetooth Rssi level</string>
+    <string name="moduleRfid_onStatus">Rfid module status</string>
+    <string name="moduleBar_onStatus">Barcode module status</string>
+    <string name="drawer_item_text">Drawer Item</string>
+    <string name="home_read_write">Read/Write</string>
+    <string name="home_inventory">Inventory</string>
+    <string name="home_regTag">Register Tag</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_locate">Geiger Search</string>
+    <string name="home_filter">Filters</string>
+    <string name="home_connect">Connect</string>
+    <string name="home_access">Security</string>
+    <string name="colon">:</string>
+
+    <string name="cert_outdated">Expired</string>
+    <string name="going_to_outdated">Expire Soon</string>
+    <string name="cert_valid">Valid</string>
+    <string name="cert_inactive">Inactive</string>
+
+    <string name="user_not_found">User Not Found</string>
+    <string name="not_approved">Unapproved Asset</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="loading">Loading</string>
+
+    <string name="tray_not_set">Tray not Set</string>
+    <string name="tray_not_found">Tray not found</string>
+    <string name="asset_not_found">Asset Not Found</string>
+    <string name="no_asset_selected">No Asset selected</string>
+    <string name="select_unit">Select Unit : </string>
+    <string name="welcome">Welcome to E-AMS</string>
+
+    <string name="required_to_load">Please proceed to PC for synchronizing user data</string>
+
+    <string name="sync">Sync Data</string>
+    <string name="waiting">Waiting data transfer</string>
+    <string name="transfering">Transfering </string>
+
+    <string name="last_asset_no">Last Asset No</string>
+
+    <string name="settingAntennaPower_title_other">Other functional power(0-32)</string>
+
+</resources>

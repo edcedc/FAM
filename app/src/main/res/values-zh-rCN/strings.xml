@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FAM 10k</string>
+    <string name="app_name_zh">固 定 资 产 管 家</string>
+    <string name="upload_tips">成功保存至本地。请在联网环境下使用上传功能提交本地数据。</string>
+
+    <string name="initial_reader">正初始化阅读器.请稍候.</string>
+    <string name="login">登录</string>
+    <string name="account">帐户</string>
+    <string name="password">密码</string>
+    <string name="companyid_empty">公司ID不能填空，请到设定页设置</string>
+    <string name="host_address_empty">主机地址不能填空，请到设定页设置</string>
+    <string name="account_empty">请输入帐户ID</string>
+    <string name="password_empty">请输入密码</string>
+    <string name="downloading">下载中</string>
+    <string name="uploading">上载中</string>
+
+    <string name="back">返回</string>
+    <string name="host_address">主机</string>
+    <string name="company_id">公司 ID</string>
+    <string name="no_internet">没有互联网连接</string>
+    <string name="username_not_exist">用戶不存在</string>
+
+    <string name="no_info_to_upload">没有资料上传</string>
+    <string name="incorrect_credential">密码错误</string>
+    <string name="success">成功</string>
+
+    <string name="borrow_success">借用成功</string>
+    <string name="disposal_success">弃置成功</string>
+
+    <string name="return_success">归还成功</string>
+
+    <string name="success_binding">成功绑定新EPC</string>
+    <string name="binding_fail">绑定失败.该EPC已被其他资产使用.</string>
+    <string name="lend_some">已经借出x个资产</string>
+    <string name="fail">失败</string>
+
+    <string name="upload_success">上传成功</string>
+    <string name="upload_fail">上传失败</string>
+
+    <string name="save">储存</string>
+    <string name="update">更新</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="t_chinese">繁体中文</string>
+    <string name="s_chinese">简体中文</string>
+
+    <!-- copy from drawer -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="register_epc_request">註冊EPC</string>
+    <string name="change_epc_request">更改EPC</string>
+
+    <!-- copy from drawer end -->
+    <string name="borrow_list">借用清单</string>
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="search">搜寻资产</string>
+    <string name="registration">注册资产</string>
+    <string name="receive_deposit">摆放/接收</string>
+
+    <string name="receive">接收</string>
+    <string name="deposit">摆放</string>
+
+    <string name="asset_list">资产清单</string>
+    <string name="user_list">用户清单</string>
+
+    <string name="borrow">借用资产</string>
+    <string name="return_string">归还资产</string>
+    <string name="stock_take">盘点清单</string>
+    <string name="disposal">注销清单</string>
+    <string name="bluetooth">蓝牙连接</string>
+    <string name="logout">登出</string>
+    <string name="download">下载</string>
+    <string name="download_all">全部下载</string>
+    <string name="upload_all">全部上传</string>
+    <string name="no_data_for_upload">所有资料已经上传</string>
+    <string name="no_data">没有资料</string>
+    <string name="upload">上传</string>
+
+    <string name="asset_information">资产资料</string>
+    <string name="financial_information">财政资料</string>
+    <string name="tag_information">标签资料</string>
+    <string name="cert_information">证书资料</string>
+    <string name="valid_day">有效期</string>
+    <string name="certificate_type">证书类型</string>
+    <string name="cert_url">证书连结</string>
+    <string name="cert_status">证书状态</string>
+
+    <string name="bind">已绑定</string>
+    <string name="unbind">未绑定</string>
+
+    <string name="in_library">在库</string>
+    <string name="borrowed">已借出</string>
+    <string name="disposed">已丢弃</string>
+
+    <string name="full_list">全部</string>
+    <string name="found">已读取</string>
+    <string name="missing">不在库</string>
+
+    <string name="camera">相机</string>
+    <string name="gallery">图库</string>
+
+    <string name="brand">品牌</string>
+    <string name="model">型号</string>
+    <string name="category">分类</string>
+    <string name="location">地点</string>
+    <string name="return_to_location">归还地点</string>
+    <string name="epc">EPC</string>
+    <string name="new_epc">新EPC</string>
+
+    <string name="overdue">过期</string>
+    <string name="return_date">归还日期</string>
+    <string name="no_result">没有资料</string>
+    <string name="result">结果</string>
+    <string name="search_result">搜寻结果</string>
+    <string name="binding_result">成功注册 x 件资产, 更改了 y 件资产.</string>
+
+    <string name="cancel">取消</string>
+    <string name="assetno">资产号码</string>
+    <string name="assetname">资产名称</string>
+
+    <string name="details">详细</string>
+    <string name="bind_to">绑定</string>
+    <string name="change_epc">更改 EPC</string>
+    <string name="epc_already_exist">EPC 已经被其他资产绑定</string>
+    <string name="remark">备注</string>
+    <string name="status">状态</string>
+    <string name="serial_number">序号</string>
+    <string name="unit">单位</string>
+    <string name="last_stock_date">最后盘点时间</string>
+    <string name="created_by">创建用户</string>
+    <string name="create_date">创建日期</string>
+    <string name="holder">持有人</string>
+    <string name="group">隶属组别</string>
+    <string name="source">来源</string>
+    <string name="witness">见证人</string>
+    <string name="prosecution_no">旧资产编号</string>
+    <string name="purchase_date">购买日期</string>
+    <string name="invoice_voucher_date">发票/传单日期</string>
+    <string name="invoice_voucher_no">发票/传单号码</string>
+    <string name="funding_source">资金来源</string>
+    <string name="supplier">供应商</string>
+    <string name="maintenance_date">保养日期</string>
+    <string name="cost">成本</string>
+    <string name="practical_value">实际价值</string>
+    <string name="estimated_lifetime_month">预期寿命(月)</string>
+
+    <string name="type_of_tag">标签类型</string>
+    <string name="barcode">条码</string>
+    <string name="start">开始</string>
+    <string name="scan">扫描条码</string>
+    <string name="stop">停止</string>
+    <string name="old_epc">原有EPC</string>
+    <string name="confirm">确认</string>
+    <string name="confirm_deleting">确认删除</string>
+
+    <string name="applied">已申请</string>
+    <string name="approved">已接纳</string>
+    <string name="rejected">已拒绝</string>
+    <string name="Abnormal">异常</string>
+
+    <string name="new_string">新资产</string>
+    <string name="processing">处理中</string>
+    <string name="expired">过期</string>
+
+    <string name="apply_date">申请日期</string>
+    <string name="approval_date">接纳日期</string>
+    <string name="approved_by">接纳人</string>
+    <string name="valid_date">有效日期</string>
+    <string name="borrow_from">Borrowed From</string>
+    <string name="borrowed_item">已借用物件</string>
+    <string name="disposed_item">已弃置物件</string>
+    <string name="return_some">已归还 x 件资产</string>
+    <string name="disposal_some">已弃置 x 件资产</string>
+
+    <string name="user_list_downloaded">成功下载用户清单</string>
+    <string name="asset_list_downloaded">成功下载资产清单</string>
+    <string name="registration_list_downloaded">成功下载注册清单</string>
+    <string name="borrow_list_downloaded">成功下载借用清单</string>
+    <string name="stock_take_list_downloaded">成功下載盘点清单</string>
+    <string name="disposal_list_downloaded">成功下载弃置清单</string>
+
+    <string name="start_date">开始日期</string>
+    <string name="end_date">完结日期</string>
+    <string name="progress">进度</string>
+    <string name="last_update">最后更新</string>
+
+    <string name="waiting_list">搜寻中</string>
+    <string name="abnormal">异常</string>
+
+    <string name="asset_number">资产号码</string>
+
+
+    <string name="error_bluetooth_connection_failed">未能连接设备</string>
+    <string name="toast_ble_connected">已连接蓝牙</string>
+    <string name="bluetooth_is_not_connected">未能连接蓝牙</string>
+    <string name="rfid_is_not_ready">RFID is not ready</string>
+    <string name="app_ime">CS108 Java Wedge</string>
+    <string name="subtype_en_US">English (US)</string>
+
+    <string name="photo">图片</string>
+    <string name="no_location_selected">没有选择地点</string>
+
+    <!-- Strings for Fragment actionBar title -->
+    <string name="title_activity_home">Convergence Systems</string>
+    <string name="title_activity_connection">Connect</string>
+    <string name="title_activity_filters">Filters</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_readwrite">Read / Write</string>
+    <string name="title_activity_registertag">Register tag</string>
+    <string name="title_activity_special">Special Functions</string>
+    <string name="title_activity_geiger">Geiger search</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_security">Security</string>
+
+    <!-- Items for lock privilege state -->
+    <string-array name="access_lock_privilege_array">
+        <item>Unchanged</item>
+        <item>Unlock</item>
+        <item>Permanent Unlock</item>
+        <item>Lock</item>
+        <item>Permanent Lock</item>
+    </string-array>
+
+    <!-- Strings for Access Operations Kill Fragment -->
+
+    <!-- Strings for Access Operations Kill Fragment -->
+    <!-- Items selectMaskagID -->
+    <string-array name="memoryBank_options">
+        <item>Reser</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="read_memoryBank_options">
+        <item>EPC</item>
+        <item>TID</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="dataType_options">
+        <item>Hex</item>
+        <item>Bit</item>
+    </string-array>
+
+    <string-array name="write_memoryBank_options">
+        <item>EPC</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="filterPre_SLaction_options">
+        <item>Match(assert SL), else(deassert SL)</item>
+        <item>Match(assert SL), else(do nothing)</item>
+        <item>Match(do nothing), else(deassert SL)</item>
+        <item>Match(invert SL), else(do nothing)</item>
+        <item>Match(deassert SL), else(assert SL)</item>
+        <item>Match(deassert SL), else(do nothing)</item>
+        <item>Match(do nothing), else(assert SL)</item>
+        <item>Match(do nothing), else(invert SL)</item>
+    </string-array>
+
+    <string-array name="filterPre_SessionAction_options">
+        <item>Match(inventory A), else(set inventory B)</item>
+        <item>Match(inventory A), else(do nothing)</item>
+        <item>Match(do nothing), else(inventory B)</item>
+        <item>Match(toggle AB), else(do nothing)</item>
+        <item>Match(inventory B), else(inventory A)</item>
+        <item>Match(inventory B), else(do nothing)</item>
+        <item>Match(do nothing), else(inventory A)</item>
+        <item>Match(do nothing), else(toggle AB)</item>
+    </string-array>
+
+    <string-array name="filterPre_target_options">
+        <item>Inventoried S0</item>
+        <item>Inventoried S1</item>
+        <item>Inventoried S2</item>
+        <item>Inventoried S3</item>
+        <item>SL</item>
+    </string-array>
+
+    <string-array name="admin_battery_options">
+        <item>Voltage</item>
+        <item>Percentage</item>
+    </string-array>
+
+    <string-array name="admin_rssi_options">
+        <item>dBuV</item>
+        <item>dBm</item>
+    </string-array>
+
+    <string-array name="admin_vibratemode_options">
+        <item>New</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="frequencyOrder_options">
+        <item>Frequency hopping</item>
+        <item>Fixed channel</item>
+    </string-array>
+
+    <string-array name="frequencyAgile_options">
+        <item>Frequency agile</item>
+        <item>Fixed channel</item>
+    </string-array>
+
+    <string-array name="hideTid_options">
+        <item>hide none</item>
+        <item>hide some</item>
+        <item>hide all</item>
+    </string-array>
+
+    <string-array name="query_target_options">
+        <item>A</item>
+        <item>B</item>
+        <item>Toggle A/B</item>
+    </string-array>
+
+    <string-array name="query_session_options">
+        <item>S0</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="inventory_algorithm_options">
+        <item>Dynamic</item>
+        <item>Fixed</item>
+    </string-array>
+
+    <string-array name="profile_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="profile1_options">
+        <item>0: Multipath Interference Resistance</item>
+        <item>1: Range/Dense reader</item>
+        <item>2: Range/Throughput/Dense reader</item>
+        <item>3: Maximum throughput</item>
+    </string-array>
+
+    <string-array name="rflnagain_options">
+        <item>1 dB</item>
+        <item>7 dB</item>
+        <item>13 dB</item>
+    </string-array>
+
+    <string-array name="iflnagain_options">
+        <item>24 dB</item>
+        <item>18 dB</item>
+        <item>12 dB</item>
+        <item>6 dB</item>
+    </string-array>
+
+    <string-array name="agcgain_options">
+        <item>-12 dB</item>
+        <item>-6 dB</item>
+        <item>0 dB</item>
+        <item>6 dB</item>
+    </string-array>
+
+    <string-array name="query_select_options">
+        <item>All</item>
+        <item>All</item>
+        <item>~SL</item>
+        <item>SL</item>
+    </string-array>
+
+    <string-array name="coldChain_unit_options">
+        <item></item>
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>sample interval</item>
+    </string-array>
+
+    <string-array name="coldChain_IntervalUnit_options">
+        <item></item>
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>5 minutes</item>
+    </string-array>
+
+    <string-array name="coldChain_enable_options">
+        <item></item>
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+
+    <string-array name="disable_enable_options">
+        <item>disable</item>
+        <item>enable</item>
+    </string-array>
+
+    <string-array name="xerxesTag_options">
+        <item>All</item>
+        <item>S2</item>
+        <item>S3</item>
+        <item>Xerxes</item>
+    </string-array>
+
+    <string-array name="sensor_unit_options">
+        <item>%</item>
+        <item>code</item>
+    </string-array>
+
+    <string-array name="temperature_unit_options">
+        <item>\u2103</item>
+        <item>\u2109</item>
+    </string-array>
+
+    <string-array name="rfMicronTag_options">
+        <item>All</item>
+        <item>S2</item>
+        <item>S3</item>
+    </string-array>
+
+    <string-array name="micronDetect_options">
+        <item>temperature</item>
+        <item>snsor</item>
+    </string-array>
+
+    <!-- Strings for StartStopTrigger Fragment -->
+    <!-- Strings for start trigger Selection -->
+    <!-- Strings for stop trigger Selection -->
+
+    <!-- beeper volume -->
+
+    <!-- Error Indicators -->
+    <string name="nodevice_found">找不到设备</string>
+    <string name="notag_found">没有标签</string>
+    <string name="nobarcode_found">没有条码</string>
+
+    <!-- Titles in ReadersList -->
+    <string name="available_readers_title">RFID 阅读器</string>
+    <string name="connecting_with_">正在连接 </string>
+    <string name="bluetooth_already_connected">已经成功连接</string>
+
+    <!-- Titles in regulatory settings -->
+
+    <!-- toast -->
+    <string name="toast_ble_not_connected">还未连接任何装置。</string>
+    <string name="toast_not_ready">资料更新中,请稍候。</string>
+    <string name="toast_finishing_tag_data_upload">Finishing tag data upload</string>
+    <string name="toast_abort_by_STOP">Finish as STOP is pressed</string>
+    <string name="toast_abort_by_BUTTON">Finish as BUTTON is released</string>
+    <string name="toast_abort_by_TIMEOUT">Finish as TIMEOUT</string>
+    <string name="toast_abort_by_RFIDRESET">Finish as RFID RESET</string>
+    <string name="toast_abort_by_END">Finish as COMMAND END is received</string>
+    <string name="toast_abort_by_SUCCESS">SUCCESS</string>
+    <string name="toast_abort_by_FAILURE">FAILURE</string>
+    <string name="toast_ble_setup_problem">Setup problem after connection. Disconnect</string>
+    <string name="toast_invalid_range">Invalid Range. Operation is cancelled.</string>
+    <string name="toast_invalid_sendHostRequest">Invalid sendHostRequest. Operation is cancelled.</string>
+    <string name="toast_same_setting">Same setting. Need no update. Operation is cancelled.</string>
+    <string name="toast_saved">Saved new setting.</string>
+    <string name="nothing_selected">没有选择任何资产</string>
+    <string name="disposal_list">弃置清单</string>
+    <string name="return_list">归还资产</string>
+    <string name="download_success">下载成功</string>
+
+    <!-- Titles in connection settings -->
+    <string name="original_epc">原有EPC</string>
+    <string name="start_title">开始</string>
+    <string name="tag_pattern_title">Tag Pattern</string>
+    <string name="password_pattern_title">Password</string>
+    <string name="password_title">Password</string>
+    <string name="memory_bank_title">Memory Bank</string>
+    <string name="read_title">READ</string>
+    <string name="write_title">WRITE</string>
+    <string name="reserve_title">Reserved Memory</string>
+    <string name="readWriteOffset_title">Offset</string>
+    <string name="readWriteSize_title">Size</string>
+    <string name="kill_pwd_title">Kill PW</string>
+    <string name="access_pwd_title">Access PW </string>
+    <string name="epc_memory_title">EPC</string>
+    <string name="pc_title">PC</string>
+    <string name="epc_title">EPC</string>
+    <string name="xpc_title">XPC</string>
+    <string name="epc1_memory_title">EPC Memory</string>
+    <string name="tid_memory_title">TID Memory</string>
+    <string name="user_mmeory_title">User Memory</string>
+    <string name="geigerTone_title">Tone</string>
+    <string name="geigerThreshold_title">Threshold = </string>
+    <string name="settingProfile_title">Profile(0-3)</string>
+    <string name="settingAntennaCycle_title">Antenna cycle(0-65535)</string>
+    <string name="settingAntennaDwell_title">Antenna dwell(0-65535ms)</string>
+    <string name="settingAntennaPower_title">盤點功能功率(0-32)</string>
+    <string name="settingAntennaBattery_title">Battery Display</string>
+    <string name="settingQueryTarget_title">Query target</string>
+    <string name="settingInvAlgo_titile">Query algorithm</string>
+    <string name="settingStartQ_title">Start Q(0-15)</string>
+    <string name="settingQValue_title">Q Value(0-15)</string>
+    <string name="settingMaxQ_title">Maximum Q(0-15)</string>
+    <string name="settingMinQ_title">Minimum Q(0-15)</string>
+    <string name="settingRetry_title">Retry(0-255)</string>
+    <string name="settingRunTilZero_title">Run til zero</string>
+    <string name="settingInvSelectMaskData_title">Mask data</string>
+    <string name="kill_title">KILL</string>
+    <string name="save_title">SAVE</string>
+    <string name="offset_bits_title">Bit Offset (decimal)</string>
+    <string name="index_title">Index</string>
+    <string name="target_title">Target</string>
+    <string name="action_title">Action</string>
+    <string name="enable_filter">Enable Filter</string>
+    <string name="type_filter">match on ~EPC (not EPC)</string>
+    <string name="company_title">Convergence Systems Limited</string>
+    <string name="app_version_title">Application Version</string>
+    <string name="lib_version_title">Library Version</string>
+    <string name="app_timeStamp">Time stamp</string>
+    <string name="app_GeoLocation">GPS location</string>
+    <string name="app_Ecompasss">E-Compass</string>
+    <string name="bluetooth_address">Bluetooth device address</string>
+    <string name="bluetooth_rssi">Bluetooth Rssi level</string>
+    <string name="moduleRfid_onStatus">Rfid module status</string>
+    <string name="moduleBar_onStatus">Barcode module status</string>
+    <string name="drawer_item_text">Drawer Item</string>
+    <string name="home_read_write">Read/Write</string>
+    <string name="home_inventory">Inventory</string>
+    <string name="home_regTag">Register Tag</string>
+    <string name="home_settings">设定</string>
+    <string name="home_locate">Geiger Search</string>
+    <string name="home_filter">Filters</string>
+    <string name="home_connect">Connect</string>
+    <string name="home_access">Security</string>
+    <string name="colon">:</string>
+    <string name="delete">删除</string>
+
+    <string name="cert_outdated">过期</string>
+    <string name="going_to_outdated">即将过期</string>
+    <string name="cert_valid">生效</string>
+    <string name="cert_inactive">未生效</string>
+
+    <string name="user_not_found">用戶不存在</string>
+    <string name="not_approved">未通过资产</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="loading">载入中</string>
+
+    <string name="tray_not_set">文件匣未设定</string>
+    <string name="tray_not_found">没有相关文件匣资料</string>
+    <string name="asset_not_found">没有相关资产资料</string>
+    <string name="no_asset_selected">没有选择任何资产</string>
+    <string name="select_unit">选择单位 : </string>
+    <string name="welcome">欢迎使用 E-AMS</string>
+
+    <string name="sync">同步</string>
+
+    <string name="waiting">等待档案传输</string>
+    <string name="transfering">正在传输</string>
+
+    <string name="last_asset_no">旧资产编号</string>
+
+    <string name="settingAntennaPower_title_other">其他功能功率(0-32)</string>
+
+</resources>

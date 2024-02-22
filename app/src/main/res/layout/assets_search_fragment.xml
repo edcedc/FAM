@@ -1,0 +1,250 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/base_layout_style"
+    android:background="@android:color/white"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="95">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/default_top_margin"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/geigerProgressLabelMin"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/geigerProgressLabelMid"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="50" />
+
+                <TextView
+                    android:id="@+id/geigerProgressLabelMax"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:text="100" />
+            </TableRow>
+
+            <ProgressBar
+                android:id="@+id/geigerProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.ProgressBar.Horizontal" />
+
+            <TextView
+                android:id="@+id/geigerTagRssi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/dashboard_textSize"/>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/custom_select" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <CheckBox
+                    android:id="@+id/geigerToneCheck"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:checked="true"
+                    android:text="@string/geigerTone_title" />
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:text="@string/geigerThreshold_title" />
+
+                <TextView
+                    android:id="@+id/geigerThreshold"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left" />
+            </TableRow>
+
+            <SeekBar
+                android:id="@+id/geigerSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/signal_0"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_0" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/signal_1"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_1"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/signal_2"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_2"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/signal_3"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_3"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/signal_4"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_4"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/signal_5"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/new_signal_5" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_view_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:textSize="70dp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/CircularDeterminateProgressBar"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            tools:progress="0" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/geigerRunTime"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/geigerTagGot"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/geigerVoltageLevel"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/geigerYield"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            style="@style/style_button_font" />
+
+        <Button
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/geigerStart"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent"
+            android:text="@string/start_title" />
+
+        <Button
+            android:visibility="gone"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:id="@+id/connect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent"
+            android:text="@string/colon" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/geigerRate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            style="@style/style_button_font" />
+    </LinearLayout>
+</LinearLayout>

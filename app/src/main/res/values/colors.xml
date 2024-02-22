@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02BA6C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="ams_panel_grey">#ECF0EF</color>
+    <color name="ams_grey">#F2F3F4</color>
+    <color name="ams_grey_border">#BCBDC0</color>
+</resources>
